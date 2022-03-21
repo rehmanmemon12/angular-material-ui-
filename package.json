@@ -1,6 +1,6 @@
 {
-  "name": "learn-angular-material",
-  "version": "0.0.0",
+  "name": "learn-angular-material-rehman",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
