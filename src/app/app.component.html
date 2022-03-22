@@ -1,19 +1,26 @@
-<div class="mat-display-1">This is Display 1</div>
-<div class="mat-display-2">This is Display 2</div>
-<div class="mat-display-3">This is Display 3</div>
-<div class="mat-display-4">This is Display 4</div>
+<div>
+  <mat-button-toggle #matbtntoggle checked disableRippledssss>Bold</mat-button-toggle>
+  {{matbtntoggle.checked}}
 
-<div class="mat-headline"> this is Heading H1</div>
-<div class="mat-title"> this is Heading H2</div>
-<div class="mat-subheading-2"> this is Heading H3</div>
-<div class="mat-subheading-1"> this is Heading H4</div>
 
-<div class="mat-body-1">This is Body Text</div>
-<div class="mat-body-2">This is bold Body Text</div>
-<div class="mat-caption">This is Caption</div>
+  <h4>Button Toggle inside of a Reactive form</h4>
+<!--  Mat Button Toggle-->
+  <mat-button-toggle-group #formControl="matButtonToggleGroup" aria-label="Font Style">
+    <mat-button-toggle value="bold">Bold</mat-button-toggle>
+    <mat-button-toggle value="italic">Italic</mat-button-toggle>
+    <mat-button-toggle value="underline">Underline</mat-button-toggle>
+  </mat-button-toggle-group>
+  <p>Chosen value is {{formControl.value}}</p>
 
-<div class="mat-typography">
-  <h1>Hello</h1>
-  <h2>Rehman Memon</h2>
-  <h3>Rehman Memon</h3>
+
+  <mat-button-toggle-group #formControl2="matButtonToggleGroup" aria-label="Font Style" multiple>
+    <mat-button-toggle value="s">Bold</mat-button-toggle>
+    <mat-button-toggle value="i">Italic</mat-button-toggle>
+    <mat-button-toggle value="u">Underline</mat-button-toggle>
+  </mat-button-toggle-group>
+  <p>Chosen value is {{formControl2.value}}</p>
+
 </div>
+
+
+
