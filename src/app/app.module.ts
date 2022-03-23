@@ -9,6 +9,7 @@ import { MattogglebuttonComponent } from './mattogglebutton/mattogglebutton.comp
 import { MaticonmoduleComponent } from './maticonmodule/maticonmodule.component';
 import { MatbadgesComponent } from './matbadges/matbadges.component';
 import { MatProgressSpinnerModuleComponent } from './mat-progress-spinner-module/mat-progress-spinner-module.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MatProgressSpinnerModuleComponent } from './mat-progress-spinner-module
     MaticonmoduleComponent,
     MatbadgesComponent,
     MatProgressSpinnerModuleComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
