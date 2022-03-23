@@ -10,6 +10,8 @@ import { MaticonmoduleComponent } from './maticonmodule/maticonmodule.component'
 import { MatbadgesComponent } from './matbadges/matbadges.component';
 import { MatProgressSpinnerModuleComponent } from './mat-progress-spinner-module/mat-progress-spinner-module.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -19,10 +21,12 @@ import { NavbarComponent } from './navbar/navbar.component';
     MatbadgesComponent,
     MatProgressSpinnerModuleComponent,
     NavbarComponent,
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     MaterialModule
   ],
   providers: [],

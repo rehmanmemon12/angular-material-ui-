@@ -1,0 +1,12 @@
+mat-sidenav-container{
+  height: 100vh;
+}
+
+mat-sidenav, mat-sidenav-content{
+  padding: 20px;
+}
+
+mat-sidenav{
+  background-color: azure;
+  width: 200px;
+}
