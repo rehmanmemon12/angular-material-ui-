@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from "./material/material.module";
 import { MattogglebuttonComponent } from './mattogglebutton/mattogglebutton.component';
 import { MaticonmoduleComponent } from './maticonmodule/maticonmodule.component';
+import { MatbadgesComponent } from './matbadges/matbadges.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MattogglebuttonComponent,
     MaticonmoduleComponent,
+    MatbadgesComponent,
   ],
   imports: [
     BrowserModule,
