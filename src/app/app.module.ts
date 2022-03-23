@@ -6,11 +6,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MaterialModule} from "./material/material.module";
 import { MattogglebuttonComponent } from './mattogglebutton/mattogglebutton.component';
+import { MaticonmoduleComponent } from './maticonmodule/maticonmodule.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MattogglebuttonComponent,
+    MaticonmoduleComponent,
   ],
   imports: [
     BrowserModule,
