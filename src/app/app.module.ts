@@ -8,6 +8,7 @@ import {MaterialModule} from "./material/material.module";
 import { MattogglebuttonComponent } from './mattogglebutton/mattogglebutton.component';
 import { MaticonmoduleComponent } from './maticonmodule/maticonmodule.component';
 import { MatbadgesComponent } from './matbadges/matbadges.component';
+import { MatProgressSpinnerModuleComponent } from './mat-progress-spinner-module/mat-progress-spinner-module.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { MatbadgesComponent } from './matbadges/matbadges.component';
     MattogglebuttonComponent,
     MaticonmoduleComponent,
     MatbadgesComponent,
+    MatProgressSpinnerModuleComponent,
   ],
   imports: [
     BrowserModule,
