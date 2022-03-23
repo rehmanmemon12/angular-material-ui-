@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MaterialModule} from "./material/material.module";
+import { MattogglebuttonComponent } from './mattogglebutton/mattogglebutton.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    MattogglebuttonComponent,
   ],
   imports: [
     BrowserModule,
