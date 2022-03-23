@@ -1,0 +1,20 @@
+<mat-button-toggle #matbtntoggle checked disableRippledssss>Bold</mat-button-toggle>
+{{matbtntoggle.checked}}
+
+
+<h4>Button Toggle inside of a Reactive form</h4>
+<!--  Mat Button Toggle-->
+<mat-button-toggle-group #formControl="matButtonToggleGroup" aria-label="Font Style">
+  <mat-button-toggle value="bold">Bold</mat-button-toggle>
+  <mat-button-toggle value="italic">Italic</mat-button-toggle>
+  <mat-button-toggle value="underline">Underline</mat-button-toggle>
+</mat-button-toggle-group>
+<p>Chosen value is {{formControl.value}}</p>
+
+
+<mat-button-toggle-group #formControl2="matButtonToggleGroup" multiple>
+  <mat-button-toggle value="s">Bold</mat-button-toggle>
+  <mat-button-toggle value="i">Italic</mat-button-toggle>
+  <mat-button-toggle value="u">Underline</mat-button-toggle>
+</mat-button-toggle-group>
+<p>Chosen value is {{formControl2.value}}</p>
