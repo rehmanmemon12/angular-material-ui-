@@ -12,6 +12,7 @@ import { MatProgressSpinnerModuleComponent } from './mat-progress-spinner-module
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import {FormsModule} from "@angular/forms";
+import { MenusComponent } from './menus/menus.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {FormsModule} from "@angular/forms";
     MatProgressSpinnerModuleComponent,
     NavbarComponent,
     SidebarComponent,
+    MenusComponent,
   ],
   imports: [
     BrowserModule,
