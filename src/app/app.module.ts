@@ -16,6 +16,7 @@ import { MenusComponent } from './menus/menus.component';
 import { MatListComponent } from './mat-list/mat-list.component';
 import { GridComponent } from './grid/grid.component';
 import { ExpensionPanelComponent } from './expension-panel/expension-panel.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ExpensionPanelComponent } from './expension-panel/expension-panel.compo
     MatListComponent,
     GridComponent,
     ExpensionPanelComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
