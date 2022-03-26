@@ -14,6 +14,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import {FormsModule} from "@angular/forms";
 import { MenusComponent } from './menus/menus.component';
 import { MatListComponent } from './mat-list/mat-list.component';
+import { GridComponent } from './grid/grid.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MatListComponent } from './mat-list/mat-list.component';
     SidebarComponent,
     MenusComponent,
     MatListComponent,
+    GridComponent,
   ],
   imports: [
     BrowserModule,
