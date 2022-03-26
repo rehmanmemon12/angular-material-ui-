@@ -13,6 +13,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import {FormsModule} from "@angular/forms";
 import { MenusComponent } from './menus/menus.component';
+import { MatListComponent } from './mat-list/mat-list.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { MenusComponent } from './menus/menus.component';
     NavbarComponent,
     SidebarComponent,
     MenusComponent,
+    MatListComponent,
   ],
   imports: [
     BrowserModule,

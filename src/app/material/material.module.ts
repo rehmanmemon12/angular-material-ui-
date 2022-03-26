@@ -8,6 +8,8 @@ import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatSidenavModule} from "@angular/material/sidenav";
 import {MatMenuModule} from "@angular/material/menu";
+import {MatListModule} from "@angular/material/list";
+import {MatDividerModule} from "@angular/material/divider";
 
 const MaterialComponent = [
   MatButtonModule,
@@ -18,7 +20,8 @@ const MaterialComponent = [
   MatToolbarModule,
   MatSidenavModule,
   MatMenuModule,
-
+  MatListModule,
+  MatDividerModule
 ];
 
 @NgModule({
