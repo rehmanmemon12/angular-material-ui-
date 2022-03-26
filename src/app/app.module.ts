@@ -15,6 +15,7 @@ import {FormsModule} from "@angular/forms";
 import { MenusComponent } from './menus/menus.component';
 import { MatListComponent } from './mat-list/mat-list.component';
 import { GridComponent } from './grid/grid.component';
+import { ExpensionPanelComponent } from './expension-panel/expension-panel.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { GridComponent } from './grid/grid.component';
     MenusComponent,
     MatListComponent,
     GridComponent,
+    ExpensionPanelComponent,
   ],
   imports: [
     BrowserModule,
