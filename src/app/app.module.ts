@@ -17,6 +17,7 @@ import { MatListComponent } from './mat-list/mat-list.component';
 import { GridComponent } from './grid/grid.component';
 import { ExpensionPanelComponent } from './expension-panel/expension-panel.component';
 import { CardComponent } from './card/card.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { CardComponent } from './card/card.component';
     GridComponent,
     ExpensionPanelComponent,
     CardComponent,
+    TabsComponent,
   ],
   imports: [
     BrowserModule,
